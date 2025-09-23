@@ -1,1 +1,45 @@
+# KDE (Wayland); Garuda Linux
+
 [general]
+live_config_reload = true
+
+[window]
+dimensions = { columns = 120, lines = 30}
+decorations = "Full"
+opacity = 1.0
+blur = true
+startup_mode = "Windowed"
+title = "Keep Working..."
+dynamic_title = false
+decorations_theme_variant = "Dark"
+
+
+[scrolling]
+history = 10000
+
+[font]
+normal = { family = "SpaceMono", style = "Regular"}
+bold = { family = "SpaceMono", style = "Bold"}
+italic = { family = "SpaceMono", style = "Italic"}
+bold_italic = { family = "SpaceMono", style = "Bold Italic"}
+size = 11.70
+
+[colors]
+primary.foreground = "#FEF3E2"
+primary.background = "#393E46"
+cursor.text = "#393E46"
+cursor.cursor = "#FEF3E2"
+
+[cursor]
+style.shape = "Underline"
+style.blinking = "On"
+blink_interval = 350
+blink_timeout = 0
+unfocused_hollow = false
+thickness = 0.25
+
+[terminal]
+shell.program = "$SHELL"
+
+[mouse]
+hide_when_typing = true
