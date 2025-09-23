@@ -38,8 +38,5 @@ blink_timeout = 0
 unfocused_hollow = false
 thickness = 0.25
 
-[terminal]
-shell.program = "$SHELL"
-
 [mouse]
 hide_when_typing = true
