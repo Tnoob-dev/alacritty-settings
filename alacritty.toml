@@ -2,14 +2,15 @@
 
 [general]
 live_config_reload = true
+import = ["~/.config/alacritty/themes/themes/dracula.toml"]
 
 [window]
 dimensions = { columns = 120, lines = 30}
 decorations = "Full"
-opacity = 1.0
+opacity = 0.2
 blur = true
 startup_mode = "Windowed"
-title = "Keep Working..."
+title = "La FLDSMDFR"
 dynamic_title = false
 decorations_theme_variant = "Dark"
 
@@ -18,17 +19,19 @@ decorations_theme_variant = "Dark"
 history = 10000
 
 [font]
-normal = { family = "CascadiaCode", style = "Regular"}
-bold = { family = "CascadiaCode", style = "Bold"}
-italic = { family = "CascadiaCode", style = "Italic"}
-bold_italic = { family = "CascadiaCode", style = "Bold Italic"}
+normal = { family = "CaskaydiaCove Nerd Font", style = "Regular"}
+bold = { family = "CaskaydiaCove Nerd Font", style = "Bold"}
+italic = { family = "CaskaydiaCove Nerd Font", style = "Italic"}
+bold_italic = { family = "CaskaydiaCove Nerd Font", style = "Bold Italic"}
 size = 11.70
+offset = {x = 1, y = 0}
+builtin_box_drawing = true
 
 [colors]
-primary.foreground = "#FEF3E2"
-primary.background = "#393E46"
-cursor.text = "#393E46"
-cursor.cursor = "#FEF3E2"
+primary.foreground = "#FCF9EA"
+primary.background = "#8C00FF"
+cursor.cursor = "#FCF9EA"
+selection = {text = "#8C00FF", background = "#FCF9EA"}
 
 [cursor]
 style.shape = "Underline"
